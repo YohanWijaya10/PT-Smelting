@@ -1,0 +1,22 @@
+a {
+    text-decoration: none !important;
+    color: var(--cetacean-blue) !important;
+  }
+  
+  a,
+  img,
+  .nav-link,
+  .page-link {
+    -webkit-user-drag: none;
+    user-select: none;
+  }
+
+  .navbar-toggler.collapsed .btn-close {
+    display: none;
+  }
+
+  
+  .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+    display: inline;
+  }
+  
